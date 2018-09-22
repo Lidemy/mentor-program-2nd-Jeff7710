@@ -6,8 +6,8 @@ function isPrime(n) {
         }
     }
     if(result.length === 2){
-        return ture
-    }else{
+        return true
+    } else {
         return false
     }
 }
