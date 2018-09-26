@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>week3_hw1</title>
+    </head>
+        <style>
+            body{
+                margin:0px ;
+                font-family: sans-serif ;
+            }            
+            .topbar{
+                position: fixed;
+                display: flex;
+                margin: 0px;
+                height: 50px;
+                width:100%;
+                background: #1F2835;
+                color:white ;
+                top:0;
+                left:0;
+            }
+
+            .topbar__Nav{
+                font-size: 20px;
+                line-height:50px;
+                margin-left: 10px;
+            }
+            .topbar__btn {
+                display: flex ;
+                font-size:15px;
+                line-height:50px;
+                margin-left: 20px;
+                padding:0px;
+                color:grey;
+            }
+            .topbar__btn:hover{
+                color:white;
+                transition: all 0.3s;
+            }
+            .mainpart {
+                background: #E9FAFF;
+                position: block;
+                margin-top: 60px;
+            }
+            .maincontent{
+                max-width: 950px;
+                margin: 0 auto;
+                padding: 20px 20px;
+                display: block;
+            }
+            .maincontent__title{
+                font-size: 75px;
+            }
+            .subcontent{
+                max-width: 950px;
+                margin: 0 auto;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+            .maincontent__btn{
+                color: white;
+                background: #1F7EF2;
+                padding:15px 30px;
+                font-size: 20px;
+                display: inline-block;
+                border-radius: 4px;
+                margin-bottom: 20px;
+            }
+            .maincontent__btn:hover{
+                background: #0060d5;
+                transition: all 0.3S;
+            }
+            .subpart {
+                display: flex;
+                max-width: 950px;
+                margin:0 auto;
+            }
+            .subcontent{
+                display: block;
+            }
+            .subcontent__title{
+                font-size: 35px;
+            }
+            .subcontent__btn{
+                display: inline-block;
+                background: gray;
+                color: white;
+                padding: 10px 25px;
+                border-radius: 5px;
+            }
+            .subcontent__btn:hover{
+                background: #444444;
+                transition: ALL 0.3S;
+            }
+            .end{
+                MARGIN:0px auto;
+                max-width:950px;
+            }
+            .tail{
+                border-top-color: #e3e3e3;
+                border-top-style: solid;
+                border-top-width: 1px;
+                padding: 20px 0px;
+                margin-top: 40px;
+            }
+            @media screen and (max-width: 700px) {
+                .subpart {
+                    display: block;
+                }
+            }
+
+        </style>
+    <body>
+        
+        <div class="topbar">
+            <div class="topbar__Nav">Navbar</div>
+            <div class="topbar__btn">Home</div>
+            <div class="topbar__btn">Link</div>
+        </div>    
+
+        <main class="mainpart">
+            <div class="maincontent">
+                <div class="maincontent__title">Hello, World!</div>
+                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting 
+                    pieces of content. Use it as a starting point to create something more unique.</p>
+                <div class="maincontent__btn">Learn more >></div>
+            </div>
+        </main>
+
+        <div class="subpart">
+            <div class="subcontent">
+                <div class="subcontent__title">Heading</div>
+                <p>
+                    Donec id elit non mi porta gravida at eget 
+                    metus. Fusce dapibus, tellus ac cursus 
+                    commodo, tortor mauris condimentum 
+                    nibh, ut fermentum massa justo sit amet 
+                    risus. Etiam porta sem malesuada magna 
+                    mollis euismod. Donec sed odio dui.
+                </p>
+                <div class="subcontent__btn">View details >></div>
+            </div>
+
+            <div class="subcontent">
+                    <div class="subcontent__title">Heading</div>
+                    <p>
+                        Donec id elit non mi porta gravida at eget 
+                        metus. Fusce dapibus, tellus ac cursus 
+                        commodo, tortor mauris condimentum 
+                        nibh, ut fermentum massa justo sit amet 
+                        risus. Etiam porta sem malesuada magna 
+                        mollis euismod. Donec sed odio dui.
+                    </p>
+                    <div class="subcontent__btn">View details >></div>
+                </div>
+                <div class="subcontent">
+                        <div class="subcontent__title">Heading</div>
+                        <p>
+                            Donec id elit non mi porta gravida at eget 
+                            metus. Fusce dapibus, tellus ac cursus 
+                            commodo, tortor mauris condimentum 
+                            nibh, ut fermentum massa justo sit amet 
+                            risus. Etiam porta sem malesuada magna 
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="subcontent__btn">View details >></div>
+                    </div>                            
+        </div>
+
+        <DIV CLASS="end">
+            <div class="tail">© Company 2017-2018</div>
+        </DIV>
+
+    </body>
+</html>
